@@ -1,6 +1,5 @@
-const { defineConfig } = require("@vue/cli-service");
-
-module.exports = defineConfig({
-  transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === "production" ? "/repo-finda/" : "/",
-});
+module.exports = {
+  transpileDependencies: [],
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/repo-finda.github.io/" : "/",
+};
